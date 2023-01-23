@@ -1,0 +1,46 @@
+.navColor {
+    background-color: #FFFF;
+    padding: 0; }
+  
+  #navbarNavDropdown {
+    justify-content: end;
+    padding-right: 20px; }
+  .secciones {
+    align-items: center;
+  }
+  .secciones li {
+    padding: 0px 10px 0px 10px; }
+  
+  #navbarDropdownMenuLink {
+    padding-right: 0; }
+  
+  .nav-item:hover {
+    background-color: #c7c5c5bb;
+    border-radius: 30px;
+    transition: .5s; }
+  
+  .dropdown {
+    margin-right: 20px; }
+  
+  .Logo {
+    margin: 0px 0px 0px 10px; }
+  
+  .logo {
+    max-width: 110px; }
+    .logo:hover {
+      max-width: 111px; }
+
+#carrito {
+    display: flex;
+    flex-direction: column;
+}
+.cantCarrito {
+    margin: 0;
+}
+
+/* itemListContainer */
+.itemList {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 5rem;
+}
