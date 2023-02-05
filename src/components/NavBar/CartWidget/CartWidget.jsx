@@ -1,4 +1,4 @@
-const CartWidget = ({cantCarrito}) => {
+export const CartWidget = ({cantCarrito}) => {
     return (
         <>
          <li className="nav-item">
@@ -11,5 +11,3 @@ const CartWidget = ({cantCarrito}) => {
         </>
     );
 }
-
-export default CartWidget;

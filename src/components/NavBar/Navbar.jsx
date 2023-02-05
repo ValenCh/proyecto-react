@@ -1,4 +1,4 @@
-import Secciones from "./Secciones/Secciones";
+import { Secciones } from "./Secciones/Secciones";
 const Navbar = () => {
     return (
         <nav className="navbar navbar-expand-lg navColor">

@@ -1,0 +1,109 @@
+[
+    {
+        "id":"0",
+        "titulo":"Fiat Cronos",
+        "marca":"Fiat",
+        "precio":3177000,
+        "img":"https://turinfiat.com.ar/wp-content/uploads/2021/03/cronos-790-x-463-px-19.jpg",
+        "stock":2
+    },
+
+    {
+        "id":"1",
+        "titulo":"Toyota Hilux",
+        "marca":"Toyota",
+        "precio":7777000,
+        "img":"https://cdn.motor1.com/images/mgl/vkekA/s3/toyota-hilux-2021.jpg",
+        "stock":3
+    },
+    
+    {
+        "id":"2",
+        "titulo":"Corolla GR-Sport",
+        "marca":"Toyota",
+        "precio":6647000,
+        "img":"https://fotos.perfil.com/2021/02/25/trim/1280/720/toyota-corolla-gr-sport-1133794.jpg",
+        "stock":3
+    },
+
+    {
+        "id":"3",
+        "titulo":"Toyota Yaris",
+        "marca":"Toyota",
+        "precio":3432000,
+        "img":"https://www.topgear.com/sites/default/files/2022/06/1-Toyota-Yaris.jpg?w=892&h=502",
+        "stock":5
+    },
+    
+    {
+        "id":"4",
+        "titulo":"Renault Sandero",
+        "marca":"Renault",
+        "precio":3242000,
+        "img":"https://cdn.group.renault.com/ren/ar/modelos/sandero/renault-sandero-b46-ph2-actualizacion-header-001.jpg.ximg.mediumx2.webp/99c3521952.webp",
+        "stock":4
+    },
+    
+    {
+        "id":"5",
+        "titulo":"Ford Ranger",
+        "precio":6137000,
+        "marca":"Ford",
+        "img":"https://fotos.perfil.com/2021/11/24/trim/1280/720/ford-ranger-1274507.jpg",
+        "stock":5
+    },
+    
+    {
+        "id":"6",
+        "titulo":"VW Gol y Trend",
+        "marca":"Volkswagen",
+        "precio":2849900,
+        "img":"https://autotest.com.ar/wp-content/uploads/2022/01/VOLKSWAGEN-GOL-CONSUMO.jpg",
+        "stock":2
+    },
+
+    {
+        "id":"7",
+        "titulo":"Fiat Palio",
+        "marca":"Fiat",
+        "precio":1980000,
+        "img":"https://cdn.motor1.com/images/mgl/X42me/s3/lanzamiento-fiat-palio-fire-my14.jpg",
+        "stock":1
+    },
+        
+    {
+        "id":"8",
+        "titulo":"Ford Fiesta",
+        "marca":"Ford",
+        "precio":3699000,
+        "img":"https://www.km77.com/images/medium/5/9/4/5/ford-fiesta-lateral-frontal.355945.jpg",
+        "stock":3
+    },
+    
+    {
+        "id":"9",
+        "titulo":"Renault Clio",
+        "marca":"Renault",
+        "precio":1650000,
+        "img":"https://www.diariomotor.com/imges/picscache/750x/renault-clio-2019-naranja-exterior-frontal_750x.jpg",
+        "stock":2
+    },
+    
+    {
+        "id":"10",
+        "titulo":"Chev. Corsa y Classic",
+        "marca":"Chevrolet",
+        "precio":1449000,
+        "img":"https://autotest.com.ar/wp-content/uploads/2022/05/Chevrolet-Classic-Frente.jpg",
+        "stock":1
+    },
+    
+    {
+        "id":"11",
+        "titulo":"Mercedes-Benz GLA-Class",
+        "marca":"Mercedes-Benz",
+        "precio":3699000,
+        "img":"https://media.ambito.com/p/64aad6910db531947753a42b58023c3c/adjuntos/239/imges/039/876/0039876921/mercedes-benz-autojpg.jpg",
+        "stock":2
+    }
+]

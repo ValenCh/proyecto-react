@@ -1,4 +1,4 @@
-const Categorias = () => {
+export const Categorias = () => {
     return (
         <>
             <li className="nav-item dropdown">
@@ -12,4 +12,4 @@ const Categorias = () => {
     );
 }
 
-export default Categorias;
+

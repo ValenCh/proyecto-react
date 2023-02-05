@@ -1,6 +1,6 @@
-import Categorias from "../Categorias/Categorias";
-import CartWidget from "../CartWidget/CartWidget";
-const Secciones = () => {
+import { Categorias } from "../Categorias/Categorias";
+import { CartWidget } from "../CartWidget/CartWidget";
+export const Secciones = () => {
     return (
         <div className="collapse navbar-collapse" id="navbarNavDropdown">
             <ul className="navbar-nav secciones">
@@ -20,4 +20,4 @@ const Secciones = () => {
     );
 }
 
-export default Secciones;
+ 
