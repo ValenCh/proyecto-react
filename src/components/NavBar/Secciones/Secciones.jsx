@@ -1,18 +1,19 @@
 import { Categorias } from "../Categorias/Categorias";
 import { CartWidget } from "../CartWidget/CartWidget";
+import { Link } from "react-router-dom";
 export const Secciones = () => {
     return (
         <div className="collapse navbar-collapse" id="navbarNavDropdown">
             <ul className="navbar-nav secciones">
                 <li className="nav-item">
-                  <a className="nav-link" aria-current="page" href="#">Servicios</a>
+                  <Link className="nav-link" aria-current="page" to={"/servicios"}>Servicios</Link>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link" href="#">Venta</a>
+                  <Link className="nav-link" to={"/venta"}>Venta</Link>
                 </li>
                 <Categorias/>
                 <li className="nav-item">
-                  <a className="nav-link" href="#">Nosotros</a>
+                  <Link className="nav-link" to={"/nosotros"}>Nosotros</Link>
                 </li>
                 <CartWidget cantCarrito={0}/>
             </ul>

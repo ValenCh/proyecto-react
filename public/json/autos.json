@@ -1,109 +1,121 @@
 [
     {
-        "id":"0",
-        "titulo":"Fiat Cronos",
+        "id":0,
+        "nombre":"Fiat Cronos",
         "marca":"Fiat",
         "precio":3177000,
         "img":"https://turinfiat.com.ar/wp-content/uploads/2021/03/cronos-790-x-463-px-19.jpg",
-        "stock":2
+        "stock":2,
+        "idCategoria":"0km"
     },
 
     {
-        "id":"1",
-        "titulo":"Toyota Hilux",
+        "id":1,
+        "nombre":"Toyota Hilux",
         "marca":"Toyota",
         "precio":7777000,
         "img":"https://cdn.motor1.com/images/mgl/vkekA/s3/toyota-hilux-2021.jpg",
-        "stock":3
+        "stock":3,
+        "idCategoria":"0km"
     },
     
     {
-        "id":"2",
-        "titulo":"Corolla GR-Sport",
+        "id":2,
+        "nombre":"Corolla GR-Sport",
         "marca":"Toyota",
         "precio":6647000,
         "img":"https://fotos.perfil.com/2021/02/25/trim/1280/720/toyota-corolla-gr-sport-1133794.jpg",
-        "stock":3
+        "stock":3,
+        "idCategoria":"0km"
     },
 
     {
-        "id":"3",
-        "titulo":"Toyota Yaris",
+        "id":3,
+        "nombre":"Toyota Yaris",
         "marca":"Toyota",
         "precio":3432000,
         "img":"https://www.topgear.com/sites/default/files/2022/06/1-Toyota-Yaris.jpg?w=892&h=502",
-        "stock":5
+        "stock":5,
+        "idCategoria":"0km"
     },
     
     {
-        "id":"4",
-        "titulo":"Renault Sandero",
+        "id":4,
+        "nombre":"Renault Sandero",
         "marca":"Renault",
         "precio":3242000,
         "img":"https://cdn.group.renault.com/ren/ar/modelos/sandero/renault-sandero-b46-ph2-actualizacion-header-001.jpg.ximg.mediumx2.webp/99c3521952.webp",
-        "stock":4
+        "stock":4,
+        "idCategoria":"0km"
     },
     
     {
-        "id":"5",
-        "titulo":"Ford Ranger",
+        "id":5,
+        "nombre":"Ford Ranger",
         "precio":6137000,
         "marca":"Ford",
         "img":"https://fotos.perfil.com/2021/11/24/trim/1280/720/ford-ranger-1274507.jpg",
-        "stock":5
+        "stock":5,
+        "idCategoria":"0km"
     },
     
     {
-        "id":"6",
-        "titulo":"VW Gol y Trend",
+        "id":6,
+        "nombre":"VW Gol y Trend",
         "marca":"Volkswagen",
         "precio":2849900,
         "img":"https://autotest.com.ar/wp-content/uploads/2022/01/VOLKSWAGEN-GOL-CONSUMO.jpg",
-        "stock":2
+        "stock":2,
+        "idCategoria":"usados"
     },
 
     {
-        "id":"7",
-        "titulo":"Fiat Palio",
+        "id":7,
+        "nombre":"Fiat Palio",
         "marca":"Fiat",
         "precio":1980000,
         "img":"https://cdn.motor1.com/images/mgl/X42me/s3/lanzamiento-fiat-palio-fire-my14.jpg",
-        "stock":1
+        "stock":1,
+        "idCategoria":"usados"
     },
         
     {
-        "id":"8",
-        "titulo":"Ford Fiesta",
+        "id":8,
+        "nombre":"Ford Fiesta",
         "marca":"Ford",
         "precio":3699000,
         "img":"https://www.km77.com/images/medium/5/9/4/5/ford-fiesta-lateral-frontal.355945.jpg",
-        "stock":3
+        "stock":3,
+        "idCategoria":"usados"
     },
     
     {
-        "id":"9",
-        "titulo":"Renault Clio",
+        "id":9,
+        "nombre":"Renault Clio",
         "marca":"Renault",
         "precio":1650000,
-        "img":"https://www.diariomotor.com/imges/picscache/750x/renault-clio-2019-naranja-exterior-frontal_750x.jpg",
-        "stock":2
+        "img":"https://www.diariomotor.com/imagenes/picscache/750x/renault-clio-2019-naranja-exterior-frontal_750x.jpg",
+        "stock":2,
+        "idCategoria":"usados"
     },
     
     {
-        "id":"10",
-        "titulo":"Chev. Corsa y Classic",
+        "id":10,
+        "nombre":"Chev. Corsa y Classic",
         "marca":"Chevrolet",
         "precio":1449000,
         "img":"https://autotest.com.ar/wp-content/uploads/2022/05/Chevrolet-Classic-Frente.jpg",
-        "stock":1
+        "stock":1,
+        "idCategoria":"usados"
     },
     
     {
-        "id":"11",
-        "titulo":"Mercedes-Benz GLA-Class",
+        "id":11,
+        "nombre":"Mercedes-Benz GLA-Class",
         "marca":"Mercedes-Benz",
         "precio":3699000,
-        "img":"https://media.ambito.com/p/64aad6910db531947753a42b58023c3c/adjuntos/239/imges/039/876/0039876921/mercedes-benz-autojpg.jpg",
-        "stock":2
+        "img":"https://media.ambito.com/p/64aad6910db531947753a42b58023c3c/adjuntos/239/imagenes/039/876/0039876921/mercedes-benz-autojpg.jpg",
+        "stock":2,
+        "idCategoria":"usados"
     }
 ]

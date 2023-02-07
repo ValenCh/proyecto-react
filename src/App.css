@@ -38,9 +38,30 @@
     margin: 0;
 }
 
-/* itemListContainer */
-.itemList {
-    text-align: center;
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 5rem;
+/*////////////////////////////////////////////////////////////////*/
+.cardProducto {
+  width: 18rem;
+  margin: 4px;
+  background-color: hsl(0, 0%, 97%);
+}
+
+.cardBody {
+  background-color: white;
+  margin-bottom: 3px;
+  text-align: center;
+}
+
+img {
+  margin-top: 3px;
+}
+
+.cardProductos {
+  margin:4px;
+  align-items: center;
+  justify-content: center;
+}
+
+.itemDetail {
+  max-width: 540px;
+  margin-top: 20px;
 }
