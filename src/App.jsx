@@ -5,7 +5,11 @@ import Navbar from './components/NavBar/Navbar'
 import { ItemListContainer } from './components/ItemListContainer/ItemListContainer';
 import { ItemDetailContainer } from './components/ItemDetailContainer/ItemDetailContainer';
 
+//firebase
+import { cargarBDD } from './firebase/firebase';
+
 function App() {
+ cargarBDD()
   return (
     <>
     <BrowserRouter>

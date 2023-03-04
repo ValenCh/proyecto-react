@@ -4,7 +4,7 @@
         "nombre":"Fiat Cronos",
         "marca":"Fiat",
         "precio":3177000,
-        "img":"https://turinfiat.com.ar/wp-content/uploads/2021/03/cronos-790-x-463-px-19.jpg",
+        "img":"https://firebasestorage.googleapis.com/v0/b/proyecto-react-56684.appspot.com/o/Fiat%20Cronos.jpg?alt=media&token=f7e8a4c7-2675-44aa-a6c4-b6bc1c114565",
         "stock":2,
         "idCategoria":"0km"
     },
@@ -14,7 +14,7 @@
         "nombre":"Toyota Hilux",
         "marca":"Toyota",
         "precio":7777000,
-        "img":"https://cdn.motor1.com/images/mgl/vkekA/s3/toyota-hilux-2021.jpg",
+        "img":"https://firebasestorage.googleapis.com/v0/b/proyecto-react-56684.appspot.com/o/Toyota%20Hilux.jpg?alt=media&token=678f6c77-ce3b-478c-bf3d-5e0395ed7f0d",
         "stock":3,
         "idCategoria":"0km"
     },
@@ -24,7 +24,7 @@
         "nombre":"Corolla GR-Sport",
         "marca":"Toyota",
         "precio":6647000,
-        "img":"https://fotos.perfil.com/2021/02/25/trim/1280/720/toyota-corolla-gr-sport-1133794.jpg",
+        "img":"https://firebasestorage.googleapis.com/v0/b/proyecto-react-56684.appspot.com/o/Corolla%20GR-Sport.jpg?alt=media&token=14105784-c76e-4ac0-8197-6dfa1b30c8e3",
         "stock":3,
         "idCategoria":"0km"
     },
@@ -34,7 +34,7 @@
         "nombre":"Toyota Yaris",
         "marca":"Toyota",
         "precio":3432000,
-        "img":"https://www.topgear.com/sites/default/files/2022/06/1-Toyota-Yaris.jpg?w=892&h=502",
+        "img":"https://firebasestorage.googleapis.com/v0/b/proyecto-react-56684.appspot.com/o/Toyota%20Yaris.jpg?alt=media&token=b53f7c84-7812-4e17-88a7-7810b570b043",
         "stock":5,
         "idCategoria":"0km"
     },
@@ -44,7 +44,7 @@
         "nombre":"Renault Sandero",
         "marca":"Renault",
         "precio":3242000,
-        "img":"https://cdn.group.renault.com/ren/ar/modelos/sandero/renault-sandero-b46-ph2-actualizacion-header-001.jpg.ximg.mediumx2.webp/99c3521952.webp",
+        "img":"https://firebasestorage.googleapis.com/v0/b/proyecto-react-56684.appspot.com/o/Renault%20Sandero.jpg?alt=media&token=55b4859e-aa4c-4aca-ae33-7bc55fea36c6",
         "stock":4,
         "idCategoria":"0km"
     },
@@ -54,7 +54,7 @@
         "nombre":"Ford Ranger",
         "precio":6137000,
         "marca":"Ford",
-        "img":"https://fotos.perfil.com/2021/11/24/trim/1280/720/ford-ranger-1274507.jpg",
+        "img":"https://firebasestorage.googleapis.com/v0/b/proyecto-react-56684.appspot.com/o/Ford%20Ranger.jpg?alt=media&token=6473f771-3e36-463d-b113-8be879db5a56",
         "stock":5,
         "idCategoria":"0km"
     },
@@ -64,7 +64,7 @@
         "nombre":"VW Gol y Trend",
         "marca":"Volkswagen",
         "precio":2849900,
-        "img":"https://autotest.com.ar/wp-content/uploads/2022/01/VOLKSWAGEN-GOL-CONSUMO.jpg",
+        "img":"https://firebasestorage.googleapis.com/v0/b/proyecto-react-56684.appspot.com/o/VW%20Gol%20y%20Trend.jpg?alt=media&token=5c7594a4-07b2-4845-b149-944044897aba",
         "stock":2,
         "idCategoria":"usados"
     },
@@ -74,7 +74,7 @@
         "nombre":"Fiat Palio",
         "marca":"Fiat",
         "precio":1980000,
-        "img":"https://cdn.motor1.com/images/mgl/X42me/s3/lanzamiento-fiat-palio-fire-my14.jpg",
+        "img":"https://firebasestorage.googleapis.com/v0/b/proyecto-react-56684.appspot.com/o/Fiat%20Palio.jpg?alt=media&token=c7c32cc3-92c6-4a13-aeb0-80dfd6d685cb",
         "stock":1,
         "idCategoria":"usados"
     },
@@ -84,7 +84,7 @@
         "nombre":"Ford Fiesta",
         "marca":"Ford",
         "precio":3699000,
-        "img":"https://www.km77.com/images/medium/5/9/4/5/ford-fiesta-lateral-frontal.355945.jpg",
+        "img":"https://firebasestorage.googleapis.com/v0/b/proyecto-react-56684.appspot.com/o/Ford%20Fiesta.jpg?alt=media&token=0b56a304-1ed2-406b-99bf-0687e8b9823b",
         "stock":3,
         "idCategoria":"usados"
     },
@@ -94,7 +94,7 @@
         "nombre":"Renault Clio",
         "marca":"Renault",
         "precio":1650000,
-        "img":"https://www.diariomotor.com/imagenes/picscache/750x/renault-clio-2019-naranja-exterior-frontal_750x.jpg",
+        "img":"https://firebasestorage.googleapis.com/v0/b/proyecto-react-56684.appspot.com/o/Renault%20Clio.jpg?alt=media&token=2753ff7f-8aca-4222-929a-f00422d008e7",
         "stock":2,
         "idCategoria":"usados"
     },
@@ -104,7 +104,7 @@
         "nombre":"Chev. Corsa y Classic",
         "marca":"Chevrolet",
         "precio":1449000,
-        "img":"https://autotest.com.ar/wp-content/uploads/2022/05/Chevrolet-Classic-Frente.jpg",
+        "img":"https://firebasestorage.googleapis.com/v0/b/proyecto-react-56684.appspot.com/o/Chev.%20Corsa%20y%20Classic.jpg?alt=media&token=062fbb4a-7e10-4267-8be3-997d5ebdf000",
         "stock":1,
         "idCategoria":"usados"
     },
@@ -114,7 +114,7 @@
         "nombre":"Mercedes-Benz GLA-Class",
         "marca":"Mercedes-Benz",
         "precio":3699000,
-        "img":"https://media.ambito.com/p/64aad6910db531947753a42b58023c3c/adjuntos/239/imagenes/039/876/0039876921/mercedes-benz-autojpg.jpg",
+        "img":"https://firebasestorage.googleapis.com/v0/b/proyecto-react-56684.appspot.com/o/Mercedes-Benz%20GLA-Class.jpg?alt=media&token=4c94604b-ac56-4d4a-8d4b-9fc591fea20b",
         "stock":2,
         "idCategoria":"usados"
     }
