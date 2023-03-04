@@ -12,7 +12,7 @@ const firebaseConfig = {
 
 // Initialize Firebase
 const app = initializeApp(firebaseConfig);
-const db = getFirestore() //Consultar la BDD
+export const db = getFirestore(app) //Consultar la BDD
 /*
     CRUD PRODUCTOS (operaciones que puedo hacer con mi base de datos)
     CREATE
@@ -25,7 +25,7 @@ export const cargarBDD = async () => {
     const promise = await fetch('./json/autos.json')
     const productos = await promise.json()
     productos.forEach( async (prod) => {
-        await addDoc(collection(db,"productos"), {
+        await addDoc(collection(db,"products"), {
             nombre: prod.nombre,
             marca: prod.marca,
             modelo: prod.modelo,
