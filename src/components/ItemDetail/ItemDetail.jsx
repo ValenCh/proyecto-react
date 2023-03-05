@@ -21,6 +21,7 @@ export const ItemDetail = ({item}) => {
                 <p className='card-text'>Stock: {item.stock}</p>
                 <ItemCount valInicial={1} stock={item.stock} onAdd={onAdd}/>
                 <Link to={"/cart"}><button className='btn btn-secondary'>Finalizar compra</button></Link>
+                <Link to={"/"}><button className='btn btn-secondary'>Seguir compando</button></Link>
             </div>
         </div>
      
