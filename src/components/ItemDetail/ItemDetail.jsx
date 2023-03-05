@@ -14,13 +14,13 @@ export const ItemDetail = ({item}) => {
             <img src={`${item.img}`} className="img-fluid rounded-start" alt={`Imagen de ${item.nombre}`} />
         </div>
         <div className="col-md-8">
-            <div className="card-body">
+            <div className="card-body abs-center">
                 <h5 className='card-title'>{item.nombre} {item.modelo}</h5>
                 <p className='card-text'>Marca: {item.marca}</p>
                 <p className='card-text'>Precio: ${new Intl.NumberFormat('de-DE').format(item.precio)}</p>
                 <p className='card-text'>Stock: {item.stock}</p>
                 <ItemCount valInicial={1} stock={item.stock} onAdd={onAdd}/>
-                <Link to={"/cart"}><button className='btn btn-secondary'>Finalizar compra</button></Link>
+                <Link to={"/cart"}><button className='btn btn-secondary m-1'>Finalizar compra</button></Link>
                 <Link to={"/"}><button className='btn btn-secondary'>Seguir compando</button></Link>
             </div>
         </div>

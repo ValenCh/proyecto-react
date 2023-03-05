@@ -4,7 +4,7 @@ export const ItemCart = ({item}) => {
     const {removeItem} = useCarritoContext()
 
    return (
-    <div className="card mb-3 cardCart">
+    <div className="card mt-3 cardCart">
         <div className="row g-0">
             <div className="col-md-4">
                 <img src={item.img} alt={`Imagen de producto ${item.nombre}`} className="img-fluid rounded-start" />
@@ -15,7 +15,7 @@ export const ItemCart = ({item}) => {
                     <p className="card-text">Cantidad: {item.cant}</p>
                     <p className="card-text">Precio Unitario: $ {new Intl.NumberFormat('de-DE').format(item.precio)}</p>
                     <p className="card-text">Subtotal: $ {new Intl.NumberFormat('de-DE').format(item.precio * item.cant)}</p>
-                    <button className="btn btn-danger" onClick={() => removeItem(item.id)}>Eliminar del Carrito</button>
+                    <button className="btn btn-danger" onClick={() => removeItem(item.id)}><i class="fa-sharp fa-solid fa-trash"></i></button>
                 </div>
             </div>
         </div>
