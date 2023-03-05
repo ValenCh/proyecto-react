@@ -1,6 +1,6 @@
 import { useCarritoContext } from "../../context/CarritoContext"
 import { Link } from "react-router-dom"
-import  React  from "react"
+import  React, {useState}  from "react"
 import { useNavigate } from "react-router-dom"
 import {toast} from 'react-toastify'
 import { createOrdenCompra, getOrdenCompra, getProducto, updateProducto } from "../../firebase/firebase"
@@ -10,8 +10,25 @@ export const Checkout = () => {
     const datosFormulario = React.useRef()
     let navigate = useNavigate()
 
+    const [email, setEmail] = useState('');
+    const [verifyEmail, setVerifyEmail] = useState('');
+    const [formError, setFormError] = useState(null);
+
+    const handleEmailChange = (event) => {
+        setEmail(event.target.value);
+    };
+
+    const handleVerifyEmailChange = (event) => {
+        setVerifyEmail(event.target.value);
+    };
+
     const consultarFormulario = (e) => {
         e.preventDefault()
+        if (email !== verifyEmail) {
+            setFormError('Los correos electrónicos no coinciden');
+            return;
+        }
+
         const datForm = new FormData(datosFormulario.current)
         const cliente = Object.fromEntries(datForm)
         
@@ -45,31 +62,32 @@ export const Checkout = () => {
           </>
           :
             <div className="container" style={{marginTop:"20px"}}>
-            <form onSubmit={consultarFormulario} ref={datosFormulario}>
-                <div className="mb-3">
-                <label htmlFor="nombre" className="form-label">Nombre y apellido</label>
-                <input type="text" className="form-control" name="nombre" required/>
-            </div>
-                <div className="mb-3">
-                <label htmlFor="email" className="form-label">Email</label>
-                <input type="email" className="form-control" name="email" required/>
-            </div>
-            <div className="mb-3">
-                <label htmlFor="repEmail" className="form-label">Repetir Email</label>
-                <input type="email" className="form-control" name="repEmail" required/>
-            </div>
-            <div className="mb-3">
-                <label htmlFor="celular" className="form-label">Numero telefonico</label>
-                <input type="number" className="form-control" name="celular" required/>
-            </div>
-            <div className="mb-3">
-                <label htmlFor="direccion" className="form-label">Direccion</label>
-                <input type="text" className="form-control" name="direccion" required/>
-            </div>
+                <form onSubmit={consultarFormulario} ref={datosFormulario}>
+                    <div className="mb-3">
+                        <label htmlFor="nombre" className="form-label">Nombre y apellido</label>
+                        <input type="text" className="form-control" name="nombre" required/>
+                    </div>
+                    <div className="mb-3">
+                        <label htmlFor="email" className="form-label">Email</label>
+                        <input type="email" className="form-control" name="email" value={email} onChange={handleEmailChange} required/>
+                    </div>
+                    <div className="mb-3">
+                        <label htmlFor="repEmail" className="form-label">Repetir Email</label>
+                        <input type="email" className="form-control" name="repEmail" value={verifyEmail} onChange={handleVerifyEmailChange} required/>
+                    </div>
+                    {formError && <div style={{ color: 'red' }}>{formError}</div>}
+                    <div className="mb-3">
+                        <label htmlFor="celular" className="form-label">Numero telefonico</label>
+                        <input type="number" className="form-control" name="celular" required/>
+                    </div>
+                    <div className="mb-3">
+                        <label htmlFor="direccion" className="form-label">Direccion</label>
+                        <input type="text" className="form-control" name="direccion" required/>
+                    </div>
 
-            <button type="submit" className="btn btn-primary">Finalizar Compra</button>
-            </form>
-        </div>
+                    <button type="submit" className="btn btn-primary">Finalizar Compra</button>
+                </form>
+            </div>
         }
     
     </>
