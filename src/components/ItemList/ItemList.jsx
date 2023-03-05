@@ -1,15 +1,12 @@
-import {Item} from "../Item/Item"
-import { ItemCart } from "../ItemCart/ItemCart"
-export const ItemList = ({products, plantilla}) => {
+import { Item } from "../Item/Item";
+import { ItemCart } from "../ItemCart/ItemCart";
+
+export const ItemList = ({ products, plantilla }) => {
+  const PlantillaItem = plantilla ? plantilla.toLowerCase() === 'item' : true;
+
   return (
     <>
-      {
-        plantilla === 'item' 
-         ?
-        products.map(producto => <Item item={producto} key={producto.id}/>)
-         :
-        products.map(producto => <ItemCart item={producto} key={producto.id}/>)
-      }
+      { products.map(producto => PlantillaItem ? <Item item={producto} key={producto.id}/> : <ItemCart item={producto} key={`cart_${producto.id}`}/> ) }
     </>
-  )
+  );
 }

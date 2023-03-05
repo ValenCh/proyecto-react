@@ -12,7 +12,8 @@ export const Cart = () => {
                     <Link className="nav-link" to={'/'}><button className="btn btn-dark">Continuar comprando</button></Link> 
                 </>
               : //Si carrito tiene productos
-                <div className="container cartContainer">
+                carrito.map((producto) => (
+                    <div className="container cartContainer" key={producto.id}>
                     {<ItemList products={carrito} plantilla={'itemCart'}/>}
                     <div className="divButtons">
                         <p>Resumen de la compra: ${new Intl.NumberFormat('de-DE').format(totalPrice())}</p>
@@ -21,6 +22,9 @@ export const Cart = () => {
                         <Link className="nav-link" to={'/checkout'}><button className="btn btn-dark">Finalizar compra</button></Link> 
                     </div>
                 </div>
+                ))
+
+                
             }
         </>
     )

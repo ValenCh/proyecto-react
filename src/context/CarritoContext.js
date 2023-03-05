@@ -8,6 +8,11 @@ export const CarritoProvider = (props) =>{
 
     const[carrito, setCarrito] = useState([])
 
+     //Si existe el producto en el carrito
+     const isInCart = (id) =>{
+        return carrito.find(prod => prod.id === id)
+    }
+
     //Agregar producto
     const addItem = (producto, cantidad) => {
         if(isInCart(producto.id)){
@@ -22,12 +27,6 @@ export const CarritoProvider = (props) =>{
             }
             setCarrito([...carrito, prodCart])
         }
-    }
-
-    //Si existe el producto en el carrito
-    const isInCart = (id) =>{
-        //si existe me lo devuelve, si no me retorna udefined
-        return carrito.find(prod => prod.id === id)
     }
 
     //Vaciar carrito
