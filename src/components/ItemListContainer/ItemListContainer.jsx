@@ -16,13 +16,14 @@ export const ItemListContainer = () => {
             getProductos()
             
             .then(items => {
-                const products = items.filter(prod => prod.idCategoria === idCategoria)
+                const products = items.filter(prod => prod.stock > 0).filter(prod => prod.idCategoria === idCategoria)
                 const productsList = ItemList({products}) 
                 setProductos(productsList)
             })
         } else {
             getProductos()
-            .then(products => {
+            .then(items => {
+                const products = items.filter(prod => prod.stock > 0)
                 const productsList = ItemList({products}) 
                 setProductos(productsList)
             })
