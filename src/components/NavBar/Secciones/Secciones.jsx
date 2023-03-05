@@ -15,7 +15,7 @@ export const Secciones = () => {
                 <li className="nav-item">
                   <Link className="nav-link" to={"/nosotros"}>Nosotros</Link>
                 </li>
-                <CartWidget cantCarrito={0}/>
+                <CartWidget/>
             </ul>
         </div>
     );
