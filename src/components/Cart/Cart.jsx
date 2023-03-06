@@ -20,7 +20,7 @@ export const Cart = () => {
                         <div className="d-flex flex-center mb-4">
                             <h5 className="mt-3  mx-auto">Resumen de la compra: ${new Intl.NumberFormat('de-DE').format(totalPrice())}</h5>
                         </div>
-                        <div className="d-flex flex-row justify-content-around">
+                        <div className="d-flex flex-row justify-content-around mb-5">
                             <Link className="nav-link" to={'/'}><button className="btn btn-dark">Continuar Comprando</button></Link> 
                             <button className="btn btn-danger" onClick={() => emptyCart()}>Vaciar carrito</button>
                             <Link className="nav-link" to={'/checkout'}><button className="btn btn-dark">Finalizar compra</button></Link> 
