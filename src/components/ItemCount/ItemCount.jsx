@@ -8,7 +8,7 @@ export const ItemCount = ({valInicial, stock, onAdd}) => {
     const restar = () => (contador > valInicial)  && setContador(contador - 1) 
     const agregarCarrito = () => {
       onAdd(contador)
-      toast.success(`🦄 Agregaste ${contador} productos al carrito!`)
+      toast.success(`Agregaste ${contador} productos al carrito!`)
     } 
 
   return (
