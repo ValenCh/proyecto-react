@@ -21,3 +21,13 @@ localhost: 3000
 *[React] (https://es.reactjs.org/) - JavaScript Framework
 *[Firebase] (https://firebase.google.com/?hl=es) - Server y base de datos
 *[Toastify] (https://www.npmjs.com/package/react-toastify) - Notificaciones
+
+## Links de la entrega
+`Video` 
+```
+https://youtu.be/gj4yYH5_mHI
+```
+`Vercel`
+```
+proyecto-react-sable.vercel.app
+```
