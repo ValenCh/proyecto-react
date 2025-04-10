@@ -25,7 +25,7 @@ localhost: 3000
 ## Links de la entrega
 `Video` 
 ```
-https://youtu.be/gj4yYH5_mHI
+************
 ```
 `Vercel`
 ```
